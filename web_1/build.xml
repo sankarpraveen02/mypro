@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="AntTest" default="war" basedir="D:\AntTest">
+
+<target name="war" description="creating WAR file">
+<war destfile="last.war" needxmlfile="false">
+	<fileset dir="D:\Praveen\web_1\WebContent"/>
+</war>
+</target>
+
+<target name="copy" description="copy WAR to another directory">
+	<copy file="D:\AntTest\last.war" todir="D:\tomcat\apache-tomcat-8.5.24\webapps"/>
+</target>
+</project> 
