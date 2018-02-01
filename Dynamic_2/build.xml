@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Dynamic_2" default="war" basedir="D:\Praveen\Dynamic_2">
+
+<target name="war" description="creating WAR file">
+<war destfile="dyna.war" needxmlfile="false">
+	<fileset dir="D:\Praveen\Dynamic_2\WebContent"/>
+</war>
+</target>
+<target name="copy" description="copy WAR to another directory">
+	<copy file="D:\Praveen\Dynamic_2\dyna.war" todir="D:\tomcat\apache-tomcat-8.5.24\webapps"/>
+</target>
+</project> 
