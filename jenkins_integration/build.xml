@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="jenkins_integration" default="compile" basedir=".">
+
+	<path id="selenium.classpath">
+		<fileset dir="D:\Selenium\selenium-java-3.8.1">
+			<include name="client*.jar" />
+			<include name="**\*.jar" />
+		</fileset>
+	</path>
+
+	<taskdef classpathref="selenium.classpath" resource="tasks.properties" />
+
+	<target name="compile">
+		<javac srcdir="D:\Praveen\jenkins_integration\src" destdir="D:\Praveen\jenkins_integration\bin">
+
+			<classpath refid="selenium.classpath" />
+		</javac>
+	</target>
+	<target name="jar">
+		<jar destfile="D:\Praveen\jenkins_integration\app.jar" basedir="D:\Praveen\jenkins_integration\bin">
+			<manifest>
+				<attribute name="Main-Class" value="com.jenkinsdemo.Jenkins_demo" />
+			</manifest>
+		</jar>
+	</target>
+	<target name="run">
+		<java jar="D:\Praveen\jenkins_integration\app.jar" fork="true">
+			<classpath refid="selenium.classpath" />
+		</java>
+	</target>                       
+                           
+              </project>           
+                           
