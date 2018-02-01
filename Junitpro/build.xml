@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Junitpro" default="compile" basedir="D:/Praveen/Junitpro">
+
+
+	<target name="compile" description="compile java">
+
+		<javac srcdir="D:\Praveen\Junitpro\src" destdir="D:/Praveen/Junitpro/bin" />
+	</target>
+
+	<target name="jar" description="jar creation">
+		<jar destfile="D:/Praveen/Junitpro/lib/unit.jar" basedir="D:/Praveen/Junitpro/bin">
+			<manifest>
+				<attribute name="Main-Class" value="com.junitpro.Multi" />
+			</manifest>
+		</jar>
+	</target>
+	
+	<target name="run">
+	<java jar="D:/Praveen/Junitpro/lib/unit.jar" fork ="true"/>
+</target>
+
+	
+
+</project>

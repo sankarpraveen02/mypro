@@ -1,0 +1,149 @@
+Environment variables:
+  - =::=::\
+  - =C:=C:\Windows\System32
+  - =D:=D:\Praveen\Junitpro
+  - ALLUSERSPROFILE=C:\ProgramData
+  - ANT_HOME=D:\Apache Ant\apache-ant-1.10.1
+  - APPDATA=C:\Users\670336\AppData\Roaming
+  - CATALINA_HOME=D:\tomcat\apache-tomcat-8.5.24
+  - COMPUTERNAME=PC301153
+  - Classpath=C:\Program Files\Java\jre1.8.0_102\lib
+  - ComSpec=C:\WINDOWS\system32\cmd.exe
+  - CommonProgramFiles=C:\Program Files\Common Files
+  - CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+  - CommonProgramW6432=C:\Program Files\Common Files
+  - DEFLOGDIR=C:\ProgramData\McAfee\DesktopProtection
+  - ERROR_CODE=0
+  - FP_NO_HOST_CHECK=NO
+  - HOMEDRIVE=C:
+  - HOMEPATH=\Users\670336
+  - JAVA_EXEC="C:\Program Files\Java\jdk1.8.0_102\bin\java.exe"
+  - JAVA_HOME=C:\Program Files\Java\jdk1.8.0_102
+  - JRE_HOME=C:\Program Files\Java\jre1.8.0_102\bin
+  - LOCALAPPDATA=C:\Users\670336\AppData\Local
+  - LOGONSERVER=\\CTSINSRIVADD
+  - NUMBER_OF_PROCESSORS=4
+  - OS=Windows_NT
+  - OneDrive=C:\Users\670336\OneDrive
+  - PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+  - PROCESSOR_ARCHITECTURE=AMD64
+  - PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+  - PROCESSOR_LEVEL=6
+  - PROCESSOR_REVISION=3c03
+  - PROJECT_HOME=D:\Praveen\Junitpro
+  - PROMPT=$P$G
+  - PSModulePath=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+  - PUBLIC=C:\Users\Public
+  - Path=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\zookeeper-3.3.6\bin;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\Java\jdk1.8.0_102\bin;D:\tomcat\apache-tomcat-8.5.24\bin;C:\Program Files\Java\jdk1.8.0_102\bin;D:\Apache Ant\apache-ant-1.10.1\bin.;D:\sonar-scanner\sonar-scanner-3.0.3.778\bin
+  - ProgramData=C:\ProgramData
+  - ProgramFiles=C:\Program Files
+  - ProgramFiles(x86)=C:\Program Files (x86)
+  - ProgramW6432=C:\Program Files
+  - SESSIONNAME=Console
+  - SONAR_SCANNER_HOME=D:\sonar-scanner\sonar-scanner-3.0.3.778\bin\..
+  - SystemDrive=C:
+  - SystemRoot=C:\WINDOWS
+  - TEMP=C:\Users\670336\AppData\Local\Temp
+  - TMP=C:\Users\670336\AppData\Local\Temp
+  - UATDATA=C:\WINDOWS\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77
+  - USERDNSDOMAIN=CTS.COM
+  - USERDOMAIN=CTS
+  - USERDOMAIN_ROAMINGPROFILE=CTS
+  - USERNAME=670336
+  - USERPROFILE=C:\Users\670336
+  - VBOX_MSI_INSTALL_PATH=C:\Program Files\Oracle\VirtualBox\
+  - VSEDEFLOGDIR=C:\ProgramData\McAfee\DesktopProtection
+  - ZOOKEEPER_HOME=D:\zookeeper-3.3.6
+  - scriptdir=D:\sonar-scanner\sonar-scanner-3.0.3.778\bin
+  - use_embedded_jre=false
+  - windir=C:\WINDOWS
+  - windows_tracing_flags=3
+  - windows_tracing_logfile=C:\BVTBin\Tests\installpackage\csilogfile.log
+System properties:
+  - awt.toolkit=sun.awt.windows.WToolkit
+  - file.encoding=Cp1252
+  - file.encoding.pkg=sun.io
+  - file.separator=\
+  - java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment
+  - java.awt.headless=true
+  - java.awt.printerjob=sun.awt.windows.WPrinterJob
+  - java.class.path=D:\sonar-scanner\sonar-scanner-3.0.3.778\bin\..\lib\sonar-scanner-cli-3.0.3.778.jar
+  - java.class.version=52.0
+  - java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed
+  - java.ext.dirs=C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext
+  - java.home=C:\Program Files\Java\jdk1.8.0_102\jre
+  - java.io.tmpdir=C:\Users\670336\AppData\Local\Temp\
+  - java.library.path=C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\zookeeper-3.3.6\bin;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\Java\jdk1.8.0_102\bin;D:\tomcat\apache-tomcat-8.5.24\bin;C:\Program Files\Java\jdk1.8.0_102\bin;D:\Apache Ant\apache-ant-1.10.1\bin.;D:\sonar-scanner\sonar-scanner-3.0.3.778\bin;.
+  - java.runtime.name=Java(TM) SE Runtime Environment
+  - java.runtime.version=1.8.0_102-b14
+  - java.specification.name=Java Platform API Specification
+  - java.specification.vendor=Oracle Corporation
+  - java.specification.version=1.8
+  - java.vendor=Oracle Corporation
+  - java.vendor.url=http://java.oracle.com/
+  - java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+  - java.version=1.8.0_102
+  - java.vm.info=mixed mode
+  - java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+  - java.vm.specification.name=Java Virtual Machine Specification
+  - java.vm.specification.vendor=Oracle Corporation
+  - java.vm.specification.version=1.8
+  - java.vm.vendor=Oracle Corporation
+  - java.vm.version=25.102-b14
+  - line.separator=
+
+  - os.arch=amd64
+  - os.name=Windows 7
+  - os.version=6.1
+  - path.separator=;
+  - project.home=D:\Praveen\Junitpro
+  - scanner.home=D:\sonar-scanner\sonar-scanner-3.0.3.778\bin\..
+  - sun.arch.data.model=64
+  - sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes
+  - sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_102\jre\bin
+  - sun.cpu.endian=little
+  - sun.cpu.isalist=amd64
+  - sun.desktop=windows
+  - sun.io.unicode.encoding=UnicodeLittle
+  - sun.java.command=org.sonarsource.scanner.cli.Main -X
+  - sun.java.launcher=SUN_STANDARD
+  - sun.jnu.encoding=Cp1252
+  - sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+  - sun.os.patch.level=Service Pack 1
+  - sun.stderr.encoding=cp437
+  - sun.stdout.encoding=cp437
+  - user.country=US
+  - user.dir=D:\Praveen\Junitpro
+  - user.home=C:\Users\670336
+  - user.language=en
+  - user.name=670336
+  - user.script=
+  - user.timezone=Asia/Calcutta
+  - user.variant=
+SonarQube plugins:
+  - SonarC# 6.5.0.3766 (csharp)
+  - SonarPython 1.8.0.1496 (python)
+  - SonarJava 4.15.0.12310 (java)
+  - Flex 2.3 (flex)
+  - SonarQube :: Plugins :: SCM :: Git 1.3.0.869 (scmgit)
+  - SonarXML 1.4.3.1027 (xml)
+  - SonarPHP 2.11.0.2485 (php)
+  - SonarTS 1.1.0.1079 (typescript)
+  - SonarQube :: Plugins :: SCM :: SVN 1.6.0.860 (scmsvn)
+  - SonarJS 3.2.0.5506 (javascript)
+Global properties:
+  - sonar.core.id=AWDGhCX-mkGwL13wdRTM
+  - sonar.core.startTime=2018-01-29T16:02:19+0530
+Settings for module: my.project
+  - sonar.java.binaries=D:/Praveen/Junitpro/bin
+  - sonar.language=java
+  - sonar.login=******
+  - sonar.password=******
+  - sonar.projectBaseDir=D:\Praveen\Junitpro
+  - sonar.projectKey=my.project
+  - sonar.projectName=Junitpro
+  - sonar.projectVersion=1.0
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=src
+  - sonar.verbose=true
+  - sonar.working.directory=D:\Praveen\Junitpro\.scannerwork
