@@ -10,7 +10,7 @@ public class Arith  {
 		this.c = c;
 		
 	}
-	public int sum(){
+	public int sum(){              //addition
 		return a+b+c;
 	}
 	public int multiplication(){
