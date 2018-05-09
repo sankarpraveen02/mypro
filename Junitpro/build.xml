@@ -4,7 +4,7 @@
 
 	<target name="compile" description="compile java">
 
-		<javac srcdir="D:\Praveen\Junitpro\src" destdir="D:/Praveen/Junitpro/bin" />
+		<javac includeantruntime="false" srcdir="D:\Praveen\Junitpro\src" destdir="D:/Praveen/Junitpro/bin" classpath="D:\Eclipse Neon RC2\eclipse-jee-neon-RC2-win32-x86_64\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar"/>
 	</target>
 
 	<target name="jar" description="jar creation">
@@ -18,7 +18,15 @@
 	<target name="run">
 	<java jar="D:/Praveen/Junitpro/lib/unit.jar" fork ="true"/>
 </target>
-
-	
-
+<target name="junit" depends="compile">
+	<junit printsummary="on">
+		<test name="D:\Praveen\Junitpro\src\com\junitpro\SingleTest"/>
+			<classpath>
+			<pathelement location="D:\Eclipse Neon RC2\eclipse-jee-neon-RC2-win32-x86_64\eclipse\plugins\org.junit_4.12.0.v201504281640\junit.jar"/>
+		
+			<pathelement location="D:\Praveen\Junitpro\bin\com\junitpro"/> 
+			
+		</classpath>
+		</junit>
+		</target>
 </project>
