@@ -13,10 +13,10 @@ public class Arith  {
 	public int sum(){              //addition
 		return a+b+c;
 	}
-	public int multiplication(){
+	public int multiplication(){    //multiply
 		return a*b*c;
 	}
-	public int divide(){
+	public int divide(){           //divide
 	    return (a+b+c)/10;
     }
 		public static void main(String[] args) {
