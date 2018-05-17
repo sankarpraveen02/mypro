@@ -10,7 +10,7 @@ public Multi(int a, int b) {
 	
 }
 
-public int multiplication(){
+public int multiplication(){   //multiply
 	return a*b;
 }
 public int divide(){
