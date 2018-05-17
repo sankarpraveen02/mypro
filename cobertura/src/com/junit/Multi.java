@@ -13,7 +13,7 @@ public Multi(int a, int b) {
 public int multiplication(){   //multiply
 	return a*b;
 }
-public int divide(){
+public int divide(){  //divide
 	return a/b;
 }
 	public static void main(String[] args) {
